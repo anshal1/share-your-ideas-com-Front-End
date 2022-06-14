@@ -1,7 +1,6 @@
 import React, { useContext, useEffect} from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import "../componentsStyle/Navbar.css"
-import LoadingBar from "react-top-loading-bar"
 import Mycontext from '../context/context'
 const Navbar = () => {
     const location = useLocation()
@@ -43,12 +42,6 @@ const Navbar = () => {
     }
     return (
         <>
-            <LoadingBar
-                color='#f11946'
-                progress={progress}
-                height={5}
-                transitionTime={200}
-            />
             <div className='main_container'>
                 <div className="logo_container">
                     <h2 className='heading' onClick={Home}><span className="head_logo"><i className={`fa-solid fa-lightbulb`}></i></span>Share Your Ideas.com</h2>
