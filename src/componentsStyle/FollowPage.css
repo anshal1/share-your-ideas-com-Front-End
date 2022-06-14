@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@500&family=Fredoka+One&family=Roboto+Slab:wght@200&display=swap');
+
+.main_box {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+.follow_data_box {
+  width: 50%;
+  height: auto;
+  overflow-y: auto;
+  float: left;
+  clear: both;
+  text-align: center;
+  margin-top: 1rem;
+}
+.following_data_box {
+  width: 50%;
+  height: auto;
+  overflow-y: auto;
+  float: right;
+  text-align: center;
+  margin-top: 1rem;
+}
+.follow_info_msg{
+  font-size: 1.3rem;
+  color: rgb(41, 41, 212);
+  font-weight: 700;
+}
+.follow_msg_container{
+  width: 100%;
+  height: 70vh;
+  max-height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading_msg{
+  font-size: 3vh;
+  letter-spacing: 3px;
+  text-shadow: 0px 0px 5px rgb(170, 149, 149);
+  font-family: 'Roboto Slab', serif;
+  color: rgb(32, 24, 25);
+}
+.follow_info_list{
+  list-style-type: none;
+  font-size: 2vh;
+  cursor: pointer;
+  font-family: 'Fredoka One', cursive;
+}
+.follow_data_img{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid grey;
+}
+.msg{
+  font-family: 'Roboto Slab', serif;
+}

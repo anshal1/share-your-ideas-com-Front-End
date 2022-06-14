@@ -1,0 +1,10 @@
+#for_idea_share{
+    background-image: url("../images/background_idea.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    min-height: 100vh;
+}
+#tag{
+    text-shadow: 0px 0px 0px black;
+}

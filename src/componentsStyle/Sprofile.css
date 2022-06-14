@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans&family=Source+Serif+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+#idea{
+    font-size: 1.2rem;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bolder;
+}
+#title{
+    font-family: 'Bree Serif', serif;
+    font-size: 1.4rem;
+    word-spacing: 4px;
+}
+.S_Info{
+    font-size: 1.4rem;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bolder;
+    margin-top: 2rem;
+}

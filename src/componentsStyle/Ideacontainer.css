@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans&family=Source+Serif+Pro:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@500&family=Fredoka+One&family=Oswald:wght@300&family=Roboto+Slab:wght@200&display=swap");
+
+@media screen and (min-width: 690px) {
+  .main_mobile_container{
+    display: none;
+  }
+}
+@media screen and (min-width: 100px) {
+  .main_idea_container_desktop{
+    display: none;
+  }
+}
+
+.mobile_title {
+  font-weight: 700;
+  text-align: justify;
+}
+.main_mobile_container {
+  margin: 20px 0px;
+  width: 100%;
+}
+.mobile_idea {
+  text-align: justify;
+}
+#mobile_image {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 2px solid #ff6e6c;
+}
+.mobile_profile_username_container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mobile_username {
+  font-weight: 500;
+  margin: 0px 3px;
+}
+.mobile_date {
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.mobile_others {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.bottom_navbar_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #50d07d;
+  height: 3rem;
+  border-top: 1px solid black;
+  overflow: hidden;
+}
+#full_idea_link{
+  color: #50d07d;
+  font-weight: 600;
+}
+hr{
+  color: #ff6e6c;
+}
+.bottom_nav_bar {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 100;
+}
+.bottom_navbar_options {
+  font-weight: 400;
+  padding: 6vw;
+  font-family: "Fredoka One", cursive;
+  color: rgb(78, 78, 78);
+  cursor: pointer;
+}
+#search {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+#heading {
+  font-family: "Bree Serif", serif;
+  font-size: 1.4rem;
+  word-spacing: 4px;
+}
+#text {
+  font-size: 1.6rem;
+  font-family: "Source Serif Pro", serif;
+  font-weight: bolder;
+}
+#myid {
+  cursor: pointer;
+}
+#liked {
+  color: red;
+  text-shadow: 1px 1px 5px solid black;
+}
+.number {
+  font-size: 15px;
+  color: black;
+  margin-left: 5px;
+  font-weight: 600;
+  margin-right: 1rem;
+}
+.comment_lenght {
+  font-weight: 800;
+  font-size: 1.1rem;
+  font-family: "Source Serif Pro", serif;
+}
+button,
+Link {
+  color: #ff6e6c;
+}
+#img_and_username {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0;
+}
+#home_profile {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}

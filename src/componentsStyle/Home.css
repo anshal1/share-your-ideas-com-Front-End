@@ -1,0 +1,43 @@
+.Home_main_container{
+    width: 80%;
+    height: 100%;
+}
+.idea_share_box{
+    width: auto;
+    overflow: hidden;
+}
+.idea_container{
+    display: flex;
+    flex-direction: column-reverse;
+}
+#idea_box{
+    width: 100%;
+    height: 4rem;
+    min-height: 4rem;
+    max-height: 4rem;
+    border-radius: 5px;
+    border: 2px solid rgb(71, 71, 71);
+    outline: none;
+}
+#idea_box:hover{
+    cursor: pointer;
+}
+#link_share{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 2rem;
+    right: .3rem;
+    z-index: 100;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+html{
+    min-height: 100vh;
+    max-height: fit-content;
+}

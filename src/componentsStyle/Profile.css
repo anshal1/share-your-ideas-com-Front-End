@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Merriweather&family=Noto+Serif&display=swap');
+.mainContainer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.name{
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user_name{
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.bio{
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: justify;
+}
+.image_username_bio{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#profile_img{
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.toData{
+  text-decoration: none;
+}
+
+#Profile_container {
+  height: 100%;
+  width: 80%;
+  padding: 1rem;
+}
+#Pdate {
+  font-weight: 600;
+  color: rgb(71, 71, 71);
+  padding: 3px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+#Direction {
+  font-family: "Source Serif Pro", serif;
+  font-weight: 600;
+}
+.username {
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+  min-width: auto;
+  max-width: fit-content;
+  cursor: pointer;
+}
+.link {
+  text-decoration: none;
+  color: chartreuse;
+  transition: all 0.3s;
+}
+i {
+  cursor: pointer;
+  font-size: 24px;
+}
+#Ptitle {
+  font-size: 2.8vh;
+  font-family: 'Noto Serif', serif;
+  word-spacing: 4px;
+  font-weight: 800;
+}
+#Pidea {
+  font-size: 2.3vh;
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+#date {
+  font-weight: 600;
+  color: rgb(71, 71, 71);
+  padding: 3px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.User_details {
+  font-weight: 300;
+  font-family: "Bree Serif", serif;
+  font-size: 1.3rem;
+  color: rgb(36, 31, 31);
+  padding: 1rem;
+  background-color: burlywood;
+  border-radius: 10px;
+}
+.No_Msg {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(207, 56, 51);
+  font-weight: 800;
+}
+.Add_Idea {
+  text-align: center;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  cursor: pointer;
+  color: rgb(59, 102, 221);
+  font-weight: 700;
+  margin-top: 3rem;
+}
+.Add_Idea:hover {
+  transform: scale(1.023);
+}
+.Delete_Msg {
+  display: none;
+  font-size: 14px;
+  float: right;
+  font-weight: 700;
+  color: white;
+  padding: 5px;
+  background-color: grey;
+  border: 1px solid black;
+  text-transform: capitalize;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+.fa-eraser{
+  transition: all .3s;
+  float: right;
+  color: red;
+  font-size: 2.3vh;
+}
+.fa-eraser:hover .Delete_Msg {
+  display: block;
+}
+.Delete_Msg2 {
+  display: none;
+  font-size: 14px;
+  float: left;
+  font-weight: 700;
+  color: white;
+  padding: 5px;
+  background-color: grey;
+  border: 1px solid black;
+  text-transform: capitalize;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+.fa-pencil {
+  float: right;
+  transition: all .3s;
+  color: green;
+  font-size: 2.3vh;
+}
+.fa-pencil:hover{
+  transform: translateY(3px);
+}
+.fa-eraser:hover{
+  transform: translateY(3px);
+}
+.fa-pencil:hover .Delete_Msg2 {
+  display: block;
+}
+.followers {
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  padding: 5px;
+  color: rgb(52, 52, 53);
+  cursor: pointer;
+}
+.following {
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  padding: 5px;
+  color: rgb(52, 52, 53);
+  cursor: pointer;
+}
+.ideas_container{
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  border-radius: 10px;
+}
+.myusername{
+  font-family: 'Noto Serif', serif;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.comment_msg{
+  display: none;
+}
+#comment:hover .comment_msg{
+  display: inline-block;
+}
+#delete{
+  font-family: "Bree Serif", serif;
+}
+#edit{
+  font-family: "Bree Serif", serif;
+}
+#likes{
+  font-family: "Bree Serif", serif;
+  color: black;
+  margin-left: 5px;
+}
+#this_red{
+  color: red;
+}
+.options p {
+  cursor: pointer;
+  transition: all .2s;
+}
+.options p:hover{
+  transform: scale(1.034);
+  font-size: 1.01rem;
+}
+.loading_for_follow_data{
+  width: 10rem;
+  height: 5rem;
+  background-color: rgb(182, 182, 182);
+  border-radius: 5px;
+  margin: 0rem .4rem;
+  animation: loading .4s infinite alternate;
+}
+.loading_for_idea{
+  width: 100%;
+  height: 15rem;
+  background-color: rgb(182, 182, 182);
+  border-radius: 5px;
+  animation: loading .4s infinite alternate;
+}
+@keyframes loading {
+  from {
+    background-color: rgb(182, 182, 182);
+  }
+  to {
+    background-color: rgb(221, 221, 221);
+  }
+}
+#check{
+  color: blue;
+  cursor: default;
+}
+.data_box{
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.idea_lenght_box{
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.followers_lenght_box{
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: black;
+}
+.following_lenght_box{
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: black;
+}
+.follower_lenght{
+  color: black;
+}
+.following_lenght{
+  color: black;
+}

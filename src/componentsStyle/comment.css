@@ -1,0 +1,43 @@
+.addcomment{
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 3px;
+    transition: all .3s;
+    display: inline-block;
+    margin-top: 5px;
+}
+.addcomment:hover{
+    background-color: black;
+    color: white;
+}
+.all_comments_heading{
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-align: center;
+}
+#comment_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: .4rem;
+}
+.image_username{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+.comment_body{
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.date_body{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.allcomments{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.dropdown-menu li {
+    cursor: pointer;
+}

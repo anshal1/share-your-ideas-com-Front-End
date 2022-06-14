@@ -1,0 +1,112 @@
+.mycontainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  height: 86vh;
+}
+.for_name{
+  width: 10rem;
+  height: 2rem;
+  background-color: rgb(182, 182, 182);
+  margin: 1rem auto;
+  animation: loading .4s infinite alternate;
+  border-radius: 5px;
+}
+.for_Image{
+  width: 7rem;
+  height: 7rem;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  background-color: rgb(182, 182, 182);
+  animation: loading .4s infinite alternate;
+}
+.for_username{
+  width: 9rem;
+  height: 2rem;
+  background-color: rgb(182, 182, 182);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  animation: loading .4s infinite alternate;
+  border-radius: 5px;
+}
+.for_Bio{
+  width: 30rem;
+  height: 2rem;
+  background-color: rgb(182, 182, 182);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  animation: loading .4s infinite alternate;
+  border-radius: 5px;
+}
+.follow_loading{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.for_Follow{
+  width: 10rem;
+  height: 5rem;
+  background-color: rgb(182, 182, 182);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  animation: loading .4s infinite alternate;
+  border-radius: 5px;
+}
+.For_Ideas{
+  width: 100%;
+  height: 20rem;
+  background-color: rgb(182, 182, 182);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  animation: loading .4s infinite alternate;
+  border-radius: 5px;
+}
+.first {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.large_loading {
+  width: 65rem;
+  height: 11rem;
+  background-color: rgb(182, 182, 182);
+  animation: loading .4s infinite alternate;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.forIdea{
+  width: 100%;
+  height: 20rem;
+  background-color: rgb(182, 182, 182);
+  animation: loading .4s infinite alternate;
+  border-radius: 5px;
+  margin: 4rem 0;
+}
+.for_comment_box{
+  width: 100%;
+  height: 6rem;
+  background-color: rgb(182, 182, 182);
+  animation: loading .4s infinite alternate;
+  border-radius: 5px;
+}
+.for_comments{
+  margin: 1rem auto;
+  width: 15rem;
+  height: 2rem;
+  background-color: rgb(182, 182, 182);
+  animation: loading .4s infinite alternate;
+  border-radius: 5px;
+}
+@keyframes loading {
+  from {
+    background-color: rgb(182, 182, 182);
+  }
+  to {
+    background-color: rgb(221, 221, 221);
+  }
+}

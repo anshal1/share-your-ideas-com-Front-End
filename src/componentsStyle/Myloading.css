@@ -1,0 +1,25 @@
+.share_box{
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(182, 182, 182);
+    border-radius: 5px;
+    animation: loading .4s infinite alternate;
+}
+
+.ideas{
+    width: 100%;
+    height: 8rem;
+    background-color: rgb(182, 182, 182);
+    border-radius: 5px;
+    animation: loading .4s infinite alternate;
+}
+
+@keyframes loading {
+    from {
+      background-color: rgb(182, 182, 182);
+    }
+    to {
+      background-color: rgb(221, 221, 221);
+    }
+  }
+  
